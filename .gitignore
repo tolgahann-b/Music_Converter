@@ -1,0 +1,27 @@
+# PyInstaller & Build kırıntıları
+build/
+dist/
+*.spec
+*.manifest
+
+# Otomatik İndirilen Binary'ler (Repo boyutunu şişirmesin)
+ffmpeg_bin/
+yt-dlp_bin/
+ffmpeg_temp.zip
+yt-dlp_temp.zip
+
+# Geçici & Çıktı Klasörleri
+Cevrilen_Muzikler/
+*.log
+ayarlar.json
+
+# Python önbellekleri
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE & OS geçici dosyaları
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
